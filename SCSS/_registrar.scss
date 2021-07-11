@@ -22,7 +22,7 @@ $font-primary: 'Roboto', sans-serif;
     .row{
         button{
             font-family: $font-primary;
-            background-color: #b22222;
+            background-color: #4bc08e;
             color: white;
             font-size: 14px;
         }
@@ -49,18 +49,15 @@ $font-primary: 'Roboto', sans-serif;
             &-footer{
                 background-color: grey;
                 .btn{
-                    background-color: #b22222;
+                    background-color: #4bc08e;
                     color: white;
                 }
             }
     }
     .collapse{
-        .collapse__text--font{
-            font-family: $font-primary;
             font-size: 14px;
-            background-color: #b22222;
+            background-color: #4bc08e;
             color: white;
 
-        }
     }
 }

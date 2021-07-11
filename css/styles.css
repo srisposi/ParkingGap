@@ -36,8 +36,10 @@ html {
 
 .header__nav {
   z-index: 1;
-  background: #f10000;
-  background: radial-gradient(circle, #f10000 4%, #020024 25%, #cf0005 66%, #202124 88%);
+  background: #00cf75;
+  background: linear-gradient(90deg, #00cf75 7%, #202421 21%, #00cf75 49%, #202421 79%, #00cf75 93%);
+  /* background: rgb(241,0,0);
+        background: radial-gradient(circle, rgba(241,0,0,1) 4%, rgba(2,0,36,1) 25%, rgba(207,0,5,1) 66%, rgba(32,33,36,1) 88%); */
   border: 4px solid black;
   font-size: medium;
   font-family: "Roboto", sans-serif;
@@ -121,7 +123,7 @@ html {
       font-size: 10px; }
   .container--registrar .row button {
     font-family: "Roboto", sans-serif;
-    background-color: #b22222;
+    background-color: #4bc08e;
     color: white;
     font-size: 14px; }
   .container--registrar .row label {
@@ -140,12 +142,11 @@ html {
   .container--registrar .modal-footer {
     background-color: grey; }
     .container--registrar .modal-footer .btn {
-      background-color: #b22222;
+      background-color: #4bc08e;
       color: white; }
-  .container--registrar .collapse .collapse__text--font {
-    font-family: "Roboto", sans-serif;
+  .container--registrar .collapse {
     font-size: 14px;
-    background-color: #b22222;
+    background-color: #4bc08e;
     color: white; }
 
 .container--iniciarsesion {
@@ -172,7 +173,7 @@ html {
     align-items: center; }
   .container--iniciarsesion .row button {
     font-family: "Roboto", sans-serif;
-    background-color: #b22222;
+    background-color: #4bc08e;
     color: white;
     font-size: 14px; }
   .container--iniciarsesion .row label {
@@ -191,7 +192,7 @@ html {
   .container--iniciarsesion .modal-footer {
     background-color: grey; }
     .container--iniciarsesion .modal-footer .btn {
-      background-color: #b22222;
+      background-color: #4bc08e;
       color: white; }
 
 .container--precios {
@@ -204,7 +205,7 @@ html {
     color: white; }
   .container--precios thead {
     font-size: 18px;
-    background-color: #b22222; }
+    background-color: #4bc08e; }
   .container--precios tbody {
     font-size: 14px; }
 
@@ -216,7 +217,7 @@ html {
   color: white;
   font-size: 14px;
   text-align: center;
-  border: 4px solid #b22222; }
+  border: 4px solid #4bc08e; }
 
 .contenedor-pago {
   width: 90%;
@@ -441,6 +442,12 @@ html {
 
 /* Definición de variables */
 /* ================================================================= */
+.clase__parrafo {
+  color: white !important;
+  font-size: 5.5rem !important;
+  font-family: "Roboto", sans-serif !important;
+  text-align: center !important; }
+
 /* Animación */
 @keyframes animacion {
   from { }
@@ -558,11 +565,11 @@ h3 {
   width: auto;
   margin: 1.5rem;
   padding: 0.75rem;
-  border: 2px solid #b22222; }
+  border: 2px solid #4bc08e; }
 
 .container--cards .card-title {
   text-align: center;
-  color: #b22222;
+  color: #4bc08e;
   font-size: "Roboto", sans-serif;
   font-size: 14px; }
 
@@ -585,7 +592,7 @@ h3 {
   align-items: stretch; }
   .articleHistoria .body__article--img {
     padding: 0.5rem;
-    border: 2px solid #b22222; }
+    border: 2px solid #4bc08e; }
   .articleHistoria p {
     font-size: 14px;
     color: white;
@@ -607,7 +614,7 @@ h3 {
   .articlePreguntas .body__article--question {
     height: auto;
     margin: 2rem;
-    border: 2px solid #b22222; }
+    border: 2px solid #4bc08e; }
   .articlePreguntas h2 {
     margin: 1rem;
     padding: 0.5rem;

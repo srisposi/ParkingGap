@@ -21,6 +21,13 @@ $font-secundary: 'Montserrat', sans-serif;
 $padding-general: 1rem;
 
 /* ================================================================= */
+.clase__parrafo{
+    color: white !important;
+    font-size: 5.5rem !important;
+    font-family: $font-primary !important;
+    text-align: center !important;
+}
+
 /* Animación */
 @keyframes animacion {
     from { }
@@ -151,11 +158,11 @@ h3{
         width: auto;
         margin: 1.5rem;
         padding: 0.75rem;
-        border: 2px solid #b22222;    
+        border: 2px solid #4bc08e;    
     }
     .card-title{
         text-align: center;
-        color: #b22222;
+        color: #4bc08e;
         font-size: $font-primary;
         font-size: 14px;
     }
@@ -180,7 +187,7 @@ h3{
     align-items: stretch;
     .body__article--img{
         padding: 0.5rem;
-        border: 2px solid #b22222;    
+        border: 2px solid #4bc08e;    
     }
     p{
         font-size: 14px;
@@ -206,7 +213,7 @@ h3{
     .body__article--question{
         height: auto;
         margin: 2rem;
-        border: 2px solid #b22222;
+        border: 2px solid #4bc08e;
     }
     h2{
         margin: 1rem;
