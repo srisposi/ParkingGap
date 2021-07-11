@@ -24,6 +24,7 @@ $font-primary: 'Roboto', sans-serif;
 }
     /* Estilo para el logo */
 .header__logo:hover{
+    border-radius: 25px !important;
     border: 3px solid black;
     padding: 1px;
     margin: 2px;

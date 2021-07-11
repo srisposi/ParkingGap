@@ -28,6 +28,7 @@ $padding-general: 1rem;
     text-align: center !important;
 }
 
+
 /* Animación */
 @keyframes animacion {
     from { }
@@ -38,17 +39,65 @@ $padding-general: 1rem;
   } /* configuracion inicial */
 .animame {
     animation: animate__rubberBand 1s linear 3s infinite alternate;}
+
+
 /* Estilo para elementos en todo el documento  */
 a {
     margin: 10px;  /*Margen a los enlaces para separarlos*/
 }
+
+/* .h1__title{
+
+} */
+
+.titulo__funcional--1{
+    margin: 3rem;
+    color: white;
+    font-size: 4rem;
+    font-family: $font-primary;
+}
+.titulo__funcional--2{
+    color: white;
+    font-size: 4rem;
+    font-family: $font-primary;
+    text-align: right;
+    align-items: flex-end;
+    
+}
+.titulo__funcional--3{
+    color: white;
+    font-size: 4rem;
+    font-family: $font-primary;
+}
+
+.texto__funcional--1{
+    color: white;
+    font-size: 2rem;
+    font-family: $font-primary;
+}
+
+.texto__funcional--2{
+    text-align: right;
+    padding-top: 7rem;
+    color: white;
+    font-size: 2rem;
+    font-family: $font-primary;
+}
+.texto__funcional--3{
+    padding-top: 1rem;
+    color: white;
+    font-size: 2rem;
+    font-family: $font-primary;
+}
+
 h1{
     color: white;
     font-size: 4rem;
     font-family: $font-primary;
-    text-align: center;
+    text-align: left;
 } 
 h2 {
+    padding-left: 2rem;
     color: white;
     font-family: $font-secundary;
     font-size: 3rem;
@@ -203,7 +252,10 @@ h3{
 /* ESTILO PARA PREGUNTAS FRECUENTES */
 .articlePreguntas {
     height: auto;
+    width: 92%;
     margin: 3rem;
+    margin-right: 10rem;
+    padding-right: 10rem;
     padding: 3rem;
     display: flex;
     flex-direction: column;

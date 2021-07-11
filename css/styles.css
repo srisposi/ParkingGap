@@ -48,6 +48,7 @@ html {
 
 /* Estilo para el logo */
 .header__logo:hover {
+  border-radius: 25px !important;
   border: 3px solid black;
   padding: 1px;
   margin: 2px;
@@ -464,13 +465,53 @@ a {
   margin: 10px;
   /*Margen a los enlaces para separarlos*/ }
 
+/* .h1__title{
+
+} */
+.titulo__funcional--1 {
+  margin: 3rem;
+  color: white;
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif; }
+
+.titulo__funcional--2 {
+  color: white;
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+  text-align: right;
+  align-items: flex-end; }
+
+.titulo__funcional--3 {
+  color: white;
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif; }
+
+.texto__funcional--1 {
+  color: white;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif; }
+
+.texto__funcional--2 {
+  text-align: right;
+  padding-top: 7rem;
+  color: white;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif; }
+
+.texto__funcional--3 {
+  padding-top: 1rem;
+  color: white;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif; }
+
 h1 {
   color: white;
   font-size: 4rem;
   font-family: "Roboto", sans-serif;
-  text-align: center; }
+  text-align: left; }
 
 h2 {
+  padding-left: 2rem;
   color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
@@ -604,7 +645,10 @@ h3 {
 /* ESTILO PARA PREGUNTAS FRECUENTES */
 .articlePreguntas {
   height: auto;
+  width: 92%;
   margin: 3rem;
+  margin-right: 10rem;
+  padding-right: 10rem;
   padding: 3rem;
   display: flex;
   flex-direction: column;
